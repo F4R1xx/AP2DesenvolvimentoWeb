@@ -1,0 +1,111 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 50%;    
+}
+
+#pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.img_header{
+    width: 15%;
+    height: 15%;
+}
+
+.caixa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardJogador{
+    margin: 1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img_cardJogador{
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/*BOTAO PEGO NA INTERNET*/
+/* "CSS NÃO É COMIGO" KKKKKKKKK */
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.6em;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: black;
+    outline: 0;
+  }
+  
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px white inset;
+  }
+
+  /*INPUT PEGO NA INTERNET TAMBEM*/
+  input[type=text] {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    width: 200px;
+    padding: 1em;
+}
+
+input[type=text]:hover,
+textarea:hover {
+    background: #ffffff;
+    border: 1px solid #990000;
+}
